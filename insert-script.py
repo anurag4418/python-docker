@@ -18,6 +18,7 @@ val =[
 ('firstname5','lastname5','email5','admin5','admin5',date.today()),
 ('firstname6','lastname6','email6','admin6','admin6',date.today()),
 ('firstname7','lastname7','email7','admin7','admin7',date.today()),
+('firstname8','lastname8','email8','admin8','admin8',date.today()),
 ]
 
 mycursor.executemany(sql,val)
